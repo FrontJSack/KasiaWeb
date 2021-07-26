@@ -24,8 +24,9 @@ body{
  {
      font-size: 15px;
  }
- .branding img{
+ #branding img{
     float: left;
+    margin: 20px;
  }
 
 ul{
@@ -37,19 +38,19 @@ header{
     color: #35424a;
     padding-top: 30 px;
     min-height: 70px;
-    border-bottom: 4px solid #527baa;}
+    border-bottom: 4px solid #214B8C;}
     
 
 header a{
     color: #35424a;
     text-decoration: none;
     text-transform: uppercase;
-    font: weight 1000px;
-    font-size: 16px;}
+    font: weight 500px;
+    font-size: 20px;}
 
 header nav{
     float: right;
-    margin: 0 0 20px 0;}
+    margin: 49px 0 20px 0;}
 
 header li{
     display: inline;
@@ -62,19 +63,32 @@ header li{
         background-size: 100%;
         text-align: center;
         background-position:center;
-
         color: #f4f4f4;}
         #showcase h1{
             margin-top: 105px;
             font-size: 45px;
             font-weight:normal;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
             line-height: 1.6em;
             text-shadow: 3px 3px 13px#181a22
         }
         #showcase p{
             font-size: 20px;
-            text-shadow: 4px 4px 11px#181a22}
+            text-shadow: 4px 4px 11px#181a22;}
+.button3{
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 20px;
+    display: inherit;
+    width: 10%;
+    min-width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #527baa;
+    padding: 8px 8px;
+    border: 3px solid #fff;
+    color: #fff;
+}
 
 .zob{
 text-align: center;
@@ -106,13 +120,13 @@ padding-top: 15px;
     padding: 10px;
 }
 #boxes .box img{
+    display: inline-block;
+    padding: 30px;
     image-rendering: auto;
-    width: 90px;
-
 }
 article#main-col{
     float: right;
-    width: 64%;
+    width: 63%;
     color: #35424a;
 }
 article .page-title{
@@ -123,41 +137,27 @@ article .style{
 }
 .sidebar{
     float: left;
-    width: 32%;
-    margin-top: 200px;
+    width: 33%;
     text-align: left;
     list-style: none; }
-.sidebar img{
-    float: left;
-    margin-top: 10px
-    
+
+#ja {
+   margin: 25px 0 15px 0;
 }
 #boxes .title2{
     color: #35424a;
     margin-top: 30px;
     border-bottom:double #35424a;
 }
-#boxes .box img{
-    width: 800px;
-}
-.button3{
-    position: fixed;
-    top: 450px;    
-    text-decoration: none;
-    font-size: 13px;
-    background-color: #527baa;
-    padding: 5px 8px;
-    border: 3px solid #35424a;
-    border-radius: 0 10px 10px 0px;
-    color: #fff;
-}
+
+
 
 footer{
     padding: 10px;
     margin-top: 200px;
     margin-bottom: 20px;
     color: #fff;
-    background-color: #dbdbdd;
+    background-color: #214B8C;
     text-align: center;}
 
 
