@@ -107,7 +107,7 @@ padding-top: 15px;
 }
 #boxes .box img{
     display: inline-block;
-    image-resolution: 400px;
+    image-rendering: auto;
 
 }
 article#main-col{
