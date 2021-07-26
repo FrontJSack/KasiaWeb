@@ -108,6 +108,7 @@ padding-top: 15px;
 #boxes .box img{
     display: inline-block;
     image-rendering: auto;
+    width: 50%;
 
 }
 article#main-col{
