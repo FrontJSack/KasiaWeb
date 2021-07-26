@@ -106,9 +106,8 @@ padding-top: 15px;
     padding: 10px;
 }
 #boxes .box img{
-    display: inline-block;
     image-rendering: auto;
-    width: 50%;
+    width: 90px;
 
 }
 article#main-col{
