@@ -165,7 +165,8 @@ footer{
     @media(max-width :768px)
     {
         aside.sidebar,
-        article#main-col
+        article#main-col,
+        #branding img,
         {
         float: none;
         text-align: center;
